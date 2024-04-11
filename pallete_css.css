@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #1ec1be;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .color-picker-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #color-picker {
+    margin-right: 10px;
+  }
+  
+  .color-palette {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .color {
+    width: 50px;
+    height: 80px;
+    margin: 2px;
+    border: 1px solid #188a75;
+  }
+  
+  .selected-colors {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .selected-color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 1px solid #000;
+  }
+  .deleter-container {
+    width: 20px;
+    height: 15px;
+    background-color: rgb(65, 196, 240);
+    position: absolute; /* Position the div absolutely */
+    top: 91px; /* Set the top position */
+    left: 850px; /* Set the left position */
+  }
+  .target-location {
+    position: absolute; /* Position the div absolutely */
+    top: 300px; /* Set the top position */
+    left: 80px; /* Set the left position */
+    display: flex;
+    flex-direction: row; /* Elements will be displayed from right to left */
+    justify-content: flex-start; /* Align elements to the start of the container */
+    flex-wrap: wrap; /* Wrap elements to the next line if they exceed the container width */
+  }
+  .save-container{
+    width: 20px;
+    height: 15px;
+    background-color: rgb(62, 170, 205);
+    position: absolute; /* Position the div absolutely */
+    top: 91px; /* Set the top position */
+    left: 920px; /* Set the left position */
+  }
+  .ColorPalletesText{
+    position: absolute; /* Position the div absolutely */
+    top: 200px; /* Set the top position */
+    left: 80px; /* Set the left position */
+  }
+  .color {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #581d1d;
+    cursor: pointer;
+  }
+  
+  .selected {
+    border: 3px solid #1fa3b2;
+  }
+  .img-pose {
+    position: fixed;
+    top: 10px;
+    right: 1000px;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+
+}
